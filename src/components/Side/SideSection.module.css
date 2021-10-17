@@ -1,0 +1,31 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  border-right: 1px solid #ffffff;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-between;
+}
+.brand {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 72px;
+  text-align: center;
+  margin: 0 1em;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+}
+
+.icons {
+  margin: 1em;
+}
+@media only screen and (max-width: 715px) {
+  .main {
+    display: none;
+  }
+}

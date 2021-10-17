@@ -1,0 +1,38 @@
+.carousel {
+  display: flex;
+  flex-direction: row;
+  background: radial-gradient(
+    100% 2631.09% at 0% 0%,
+    rgba(0, 0, 0, 0.42) 0%,
+    rgba(0, 0, 0, 0.558) 100%
+  );
+  border-radius: 0px;
+  color: white;
+  position: absolute;
+  bottom: 0.1em;
+}
+
+.slideImg {
+  max-height: 155px;
+  object-fit: contain;
+}
+.slideDesc1,
+.slideDesc2 {
+  margin: 0 2em;
+  max-height: 155px;
+}
+
+@media only screen and (max-width: 715px) {
+  .slideDesc2 {
+    display: none;
+  }
+  .slideDesc1,
+  .slideDesc2 {
+    margin: 1em 2em;
+    max-height: 144px;
+    font-size: 12px;
+  }
+  .carousel {
+    bottom: 2em;
+  }
+}

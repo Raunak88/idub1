@@ -1,0 +1,28 @@
+.mobileMenu {
+  background-image: radial-gradient(
+    100% 2631.09% at 0px 0px,
+    rgba(0, 0, 0, 0.42) 0px,
+    rgba(0, 0, 0, 0.557) 100%
+  );
+  position: absolute;
+  bottom: 16em;
+  width: 81%;
+  right: 5em;
+  backdrop-filter: blur(50px);
+  border-radius: 2em;
+}
+.mobileMenu ul {
+  list-style-type: none;
+}
+.mobileMenu ul li {
+  margin: 1em 2em;
+}
+
+.mobileMenu ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.mobileMenu ul li a:hover {
+  border-bottom: 3px solid white;
+}

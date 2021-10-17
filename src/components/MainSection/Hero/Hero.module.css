@@ -1,0 +1,48 @@
+.heroTitle,
+.heroCaption {
+  color: white;
+}
+.heroTitle {
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0em;
+  text-align: left;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 79px;
+}
+
+.heroCaption {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.heroSection {
+  width: 50%;
+  margin: 2em;
+}
+
+@media only screen and (max-width: 715px) {
+  .heroTitle {
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 53px;
+  }
+
+  .heroCaption {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
